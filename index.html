@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Model</title>
+        <meta charset="UTF-8">
+       <meta name="description" content="Box Model">
+       <meta name="keywords" content="HTML, CSS">
+       <meta name="author" content="Bala Yogesh">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+            .header{
+                background-color: #00308F;
+                padding: 30px 30px;
+            }
+            .navigation{
+                background-color: #5072A7;
+               padding: 30px 30px;
+            }
+            .Child-1{
+                background-color: lightsalmon;
+                padding: 30px 30px;
+                height: 70vh;
+                width: 30%;
+            }
+            .Child-2{
+                background-color: #007FFF;
+                padding: 30px 30px;
+                width: 70%;
+            }
+            .Footer{
+                background-color: lightseagreen;
+                padding: 30px 30px;
+            }
+            .parent-div{
+                display: flex;
+                flex-direction: row;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+           <div class="header">
+               <p>Header</p>
+           </div>
+           <div class="navigation">
+               <p>Navigation</p>
+           </div>
+           <div class="parent-div">
+                <div class="Child-1">
+                  <p>Left</p>
+                </div>
+                <div class="Child-2">
+                    <p>Right div</p>
+                </div>
+           </div>
+           
+           <div class="Footer">
+              <p> Footer</p>
+           </div>
+        </div>
+
+    </body>
+</html>
